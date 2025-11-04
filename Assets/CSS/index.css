@@ -35,14 +35,15 @@ header{
     flex-direction: column;
     width: 100%;
     align-items: center;
+    /* background: linear-gradient(to right, yellow,green , blue); */
     padding: 50px;
-    border: 1px solid green; 
 }
-div{
+#hero-section  div{
     background-color: rgb(236, 245, 248);
     color: black;
     padding: 10px 12px;
     border-radius: 20px;
+    margin-top: 40px;
 }
 #span{
     color: rgb(237, 101, 3);
@@ -56,4 +57,110 @@ div{
 .first-para{
     margin-top: -10px;
     font-size: 20px;
+}
+/* blogs section */
+#blogs-section{
+    background-color: lightgrey;
+    padding: 30px 0px;
+}
+
+.view-all{
+    width: 68%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.view-all button{
+    background-color: white;
+    border: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+.blogs-container{
+    width: 65%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-direction: column;
+}
+.blog{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.blog-text{
+    width: 70%;
+}
+.blog-text h3{
+    margin-top: 12px;
+}
+.blog-text p{
+    margin-top: 15px;
+    color: grey;
+}
+.blog-image{
+  width: 28%;
+}
+/* blog section 2 */
+#blog-section-2{
+background-color: lightgrey;
+    padding: 10px 0px;
+
+}
+.view-all{
+    width: 68%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+/* blog section 3 */
+#blog-section-3{
+    background-color: lightgrey;
+    padding: 10px 0px;
+}
+.view-all{
+    width: 68%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer{
+    background-color: white; 
+}
+#footer h2{
+    color: chocolate;
+    text-align: center;
+    margin: 40px 0 20px 0;
+    font-size: 25px;
+}
+#footer p{
+    color: #475467;
+    text-align: center;
+}
+.p2{
+    padding-top: 20px;
+    font-size: 12px;
+}
+#form{
+    padding: 20px;
+    text-align: center;
+}
+input{
+    padding: 7px;
+    width: 22%;
+    border: 2px solid grey;
+    border-radius: 7px;
+    margin: 18px 0;
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 7px;
+    border: 0;
 }

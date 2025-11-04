@@ -1,0 +1,36 @@
+#container{
+    background-image: url("./Assets/Images/blogapp6.svg");
+    width: 600px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 7px;
+    background-blend-mode: color-dodge;
+    background-color: rgba(255, 255, 255, 0.571)
+}
+.samples-1{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.samples-2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.samples-3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.samples-4{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.samples-5{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
