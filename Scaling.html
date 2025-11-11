@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <div class="box"> </div>
+      <style>
+      .box{
+      width: 100px;
+      height: 100px;
+      background-color: tomato;
+      opacity: 1;
+      margin:50px auto;
+      transition: transform 0.4s ease, opacity 0.4s ease;
+      animation: spin 1s linear infinite;
+      padding:20px;
+      }
+      
+      @keyframes spin { 
+        0%{rotate: 0deg;}
+        100%{rotate: 360deg;}
+        }
+
+      .box:hover{
+        opacity: 0.5;
+        transform: scale(1.5) translate(50px, 50px);
+        border-radius: 50%;
+        /* animation: none; */
+      }
+      
+    </style>
+
+</body>
+</html>
